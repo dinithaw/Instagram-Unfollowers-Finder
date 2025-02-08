@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 from secrets import username as un, password as pw, email
-driver = webdriver.Chrome('/home/s0umyajit/Downloads/chromedriver')
+driver = webdriver.Chrome('/home/dinithawickramasinghe/Downloads/chromedriver')
 driver.get('https://www.instagram.com/')
 
 sleep(4)
